@@ -25,13 +25,18 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "pricing-plans",
+    title: "Prices",
+  },
+  {
+    id: "tech",
+    title: "Tech",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "pricing-plans",
-    title: "Pricing Plans",
-  },
+ 
   {
     id: "contact",
     title: "Contact",

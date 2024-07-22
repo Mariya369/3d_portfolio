@@ -12,17 +12,17 @@ import CanvasLoader from "./Loader";
 
 
 export {
+  EarthCanvas, 
+  BallCanvas, 
+  ComputersCanvas, 
+  StarsCanvas,
   Hero,
-  SecondaryNav,
   Navbar,
   About,
   Tech,
   Projects,
   PricingPlans,
   Contact,
-  CanvasLoader,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas
+  SecondaryNav,
+  CanvasLoader
 };
