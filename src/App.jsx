@@ -22,6 +22,7 @@ const App = () => {
         </div>
         <div className="relative z-0 flex justify-center items-center h-screen">
           <SecondaryNav />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

@@ -43,15 +43,18 @@ const PricingPlans = () => {
           variants={fadeIn}
           initial="hidden"
           animate="visible"
-          className="text-center mb-8"
+          className="mb-8"
         >
           <p className={styles.sectionSubText}>Choose the best plan for your needs</p>
           <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
         </motion.div>
         <div className='w-full flex'>
-        <motion.p
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
+        <motion.p 
+            variants={fadeIn}
+            initial="hidden"
+            animate="visible"
+            className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+         >
           I offer comprehensive web development services, specializing in React.js development and SEO services, to help businesses create efficient, scalable, and user-friendly web applications. Additionally, I provide a range of digital products and services tailored to meet diverse business needs.
            </motion.p>
       </div>

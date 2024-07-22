@@ -18,7 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    emailjs.init("25iY_vpG_AVlU4N4M"); // Initialize EmailJS with your user ID
+    emailjs.init('Rbm9jj4Ydh8irLWgX'); // Initialize EmailJS with your user ID
   }, []);
 
   const handleChange = (e) => {
@@ -35,7 +35,7 @@ const Contact = () => {
     try {
       setLoading(true);
 
-      const serviceId = "service_a0wu982";
+      const serviceId = "service_rticdy9";
       const templateId = "template_mus93mb";
       const templateParams = {
         to_name: "Mariya",
