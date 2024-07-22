@@ -9,6 +9,7 @@ import PricingPlans from "./PricingPlans";
 import Contact from "./Contact";
 import SecondaryNav from './SecondaryNav';
 import CanvasLoader from "./Loader";
+import ReCAPTCHA from './ReCaptcha';
 
 
 export {
@@ -24,5 +25,6 @@ export {
   PricingPlans,
   Contact,
   SecondaryNav,
-  CanvasLoader
+  CanvasLoader,
+  ReCAPTCHA
 };
