@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Updated import
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
@@ -58,10 +58,14 @@ const ProjectCard = ({
           ))}
         </div>
         <div className='relative w-full mt-5'>      
-          <button onClick={() => window.open(web_link, "_blank")}
-          className="text-white bg-primary py-2 px-4 rounded-lg"
+          <button 
+            onClick={() => window.open(web_link, "_blank")}
+            className="text-white bg-primary py-2 px-4 rounded-lg"
           >
-            Demo 🔗
+            <span className="flex items-center">
+              <FaExternalLinkAlt className="mr-2" /> {/* Updated icon name */}
+              Demo
+            </span>
           </button>
         </div>  
       </Tilt>
