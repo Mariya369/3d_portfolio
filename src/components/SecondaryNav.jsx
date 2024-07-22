@@ -1,4 +1,3 @@
-
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaGoogle, FaBehance } from 'react-icons/fa';
 import { socialLinks } from "../constants";
@@ -10,49 +9,49 @@ const SecondaryNav = () => {
         href={socialLinks.github}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaGithub className="text-xl" />
+        <FaGithub />
       </a>
       <a
         href={socialLinks.linkedin}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaLinkedin className="text-xl" />
+        <FaLinkedin />
       </a>
       <a
         href={socialLinks.instagram}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaInstagram className="text-xl" />
+        <FaInstagram />
       </a>
       <a
         href={socialLinks.facebook}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaFacebook className="text-xl" />
+        <FaFacebook />
       </a>
       <a
         href={socialLinks.google}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaGoogle className="text-xl" />
+        <FaGoogle />
       </a>
       <a
         href={socialLinks.behance}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer"
+        className="violet-gradient text-white hover:text-gray-300 transition-colors duration-300 cursor-pointer icon-style"
       >
-        <FaBehance className="text-xl" />
+        <FaBehance />
       </a>
     </div>
   );

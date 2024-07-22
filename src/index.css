@@ -33,36 +33,6 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
-}
-
-.icon-container {
-  background: #1e293b; /* Background for the icon container */
-  border-radius: 50%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-style {
-  width: 3rem; /* Increase icon size */
-  height: 3rem; /* Increase icon size */
-  color: white;
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth transition */
-}
-
-.icon-style:hover {
-  animation: icon-hover 0.6s ease-in-out; /* Apply animation on hover */
-}
-
 @keyframes icon-hover {
   0% {
     transform: scale(1) rotate(0deg);
@@ -76,6 +46,31 @@
     transform: scale(1) rotate(0deg);
     filter: hue-rotate(0deg);
   }
+}
+
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+  border-radius: 50%;
+}
+
+.icon-style {
+  width: 3rem;
+  height: 3rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth transition */
+}
+
+.icon-style:hover {
+  animation: icon-hover 0.6s ease-in-out; /* Apply animation on hover */
 }
 
 .green-pink-gradient {
@@ -249,5 +244,20 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+/* Responsive scaling */
+@media (max-width: 768px) {
+  .icon-style {
+    width: 2.5rem; /* Adjust size for smaller screens */
+    height: 2.5rem; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .icon-style {
+    width: 2rem; /* Further adjust size for very small screens */
+    height: 2rem; /* Further adjust size for very small screens */
   }
 }
